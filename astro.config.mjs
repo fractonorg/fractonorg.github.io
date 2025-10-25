@@ -22,7 +22,7 @@ export default defineConfig({
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
   },
-  outDir: "./docs",
+  site: "https://fractonorg.github.io",
   integrations: [
     starlight({
       title,
